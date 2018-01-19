@@ -1,6 +1,5 @@
 def consolidate_cart(cart)
  hash = {}
-	count = 1
   cart.each do |h|
 		h.each do |k, v|
   		if hash[k]
